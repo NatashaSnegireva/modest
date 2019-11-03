@@ -13,11 +13,15 @@ html {
 
 body {  
   margin: 0;
+  min-width: 300px;
+  padding: 0;
 }
 .container{
-  width: 1140px;
+  max-width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;
   overflow: hidden;
+  width: 100%;
 }
 a, .link {
   color: #000;
@@ -80,4 +84,10 @@ textarea{
   width: 100%;
   min-width: 100%;
   resize:none; 
+}
+main{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
