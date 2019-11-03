@@ -692,6 +692,7 @@ span{
 	p, ul, ol {
 	    margin: 0 0 10px 0;
 	}
+	.media{margin: 15px 0 30px;}
 	.button-work{padding: 25px 0 0;}
 	.card-do{ margin-bottom: 40px; }
 	.do-image{margin: 0 0 15px;}
